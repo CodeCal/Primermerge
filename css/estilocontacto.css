@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+
+}
+header {
+    background: #2d3047;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu .logo img{
+    width: 80px;
+}
+
+header nav .menu .links{
+    display: flex;
+}
+
+header nav .menu .links a{
+    padding: 16px 12px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}

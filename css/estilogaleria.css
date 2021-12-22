@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* aqui empieza la navbar */
+
+header {
+    background: #2d3047;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu .logo img{
+    width: 80px;
+}
+
+header nav .menu .links{
+    display: flex;
+}
+
+header nav .menu .links a{
+    padding: 16px 12px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+/* aqui termina la navbar*/
+
+/* aqui empieza la galeria*/
+
+.contenedor{
+    margin: auto;
+    background: rgba(255, 255, 255, 0.336);
+    width: 70%;
+    height: 350px;
+}
+
+.titulo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria {
+    width: 90%;
+    margin:auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .3rem;
+    row-gap: .3rem;
+
+}
+
+@media (min-width:320px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:520px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:728px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (min-width:1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* aqui termina la galeria */
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
